@@ -87,6 +87,7 @@
     display: flex;
     padding: 0 3rem;
     opacity: 1;
+    visibility: visible;
     width: 74%;
   }
   .navbar ul li {
