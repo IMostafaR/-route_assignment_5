@@ -1,0 +1,172 @@
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .align {
+    padding: 0 6rem;
+  }
+
+  .gallery-photo {
+    width: 45%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .align {
+    padding: 0 2rem;
+  }
+
+  .about-numbers {
+    flex-wrap: nowrap;
+  }
+
+  .right-respo {
+    border-right: 1px dashed #e0dede;
+  }
+
+  .no-bottom-respo {
+    border-bottom: 0;
+  }
+
+  .col {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .col-skill {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .services-content,
+  .education,
+  .experience,
+  .progress {
+    width: 45%;
+  }
+
+  .contact .main-content {
+    display: flex;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  .contact .main-content .note {
+    width: 66%;
+  }
+
+  .contact .main-content .info {
+    width: 30%;
+  }
+
+  .contact .btn {
+    text-align: center;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .navbar {
+    padding: 1.2rem;
+  }
+
+  .navbar .logo {
+    width: 34%;
+  }
+
+  .navbar .menu-icon i {
+    display: none;
+  }
+
+  .navbar ul {
+    position: static;
+    background-color: transparent;
+    display: flex;
+    padding: 0 3rem;
+    opacity: 1;
+    width: 74%;
+  }
+  .navbar ul li {
+    padding: 0 0.8rem;
+    border-bottom: 0;
+  }
+
+  .navbar .no-border {
+    border-bottom: 0;
+  }
+
+  .navbar .social {
+    width: 21%;
+  }
+
+  .about h2::before,
+  .services h2::before,
+  .summary h2::before,
+  .portfolio h2::before,
+  .testimonial h2::before,
+  .contact h2::before {
+    font-size: calc(1.9rem + 7vw);
+    bottom: calc(132% + 4vw);
+  }
+
+  .about-main {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: var(--margin-bottom);
+  }
+
+  .about-main .first {
+    text-align: left;
+    width: 60%;
+  }
+
+  .about-main .second {
+    width: 30%;
+  }
+
+  .gallery-photo {
+    width: 31%;
+  }
+
+  .card-main {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .card {
+    width: 49%;
+  }
+
+  .footer .footer-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .copyright,
+  .footer-text {
+    width: 50%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .align {
+    padding: 0 6rem;
+  }
+
+  .contact .main-content .note {
+    width: 85%;
+  }
+  .input-align {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .input-width {
+    width: 48%;
+  }
+}
